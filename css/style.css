@@ -72,6 +72,13 @@ header nav ul li a{
     color: #6782BB;
     text-shadow: 3px 3px 3px black;
 }
+.bienvenida img{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1
+}
 
 #c47logo{
     display: block;
@@ -340,6 +347,12 @@ iframe{
         color: #6782BB;
         text-shadow: 3px 3px 3px black;
     } 
+    .bienvenida img{
+        width: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1
 }
 
 /* Media query para mobile */
@@ -379,7 +392,7 @@ iframe{
 
     .menu{
         position: absolute;
-        top: 98px;
+        top: 93px;
         background-color: #8B307E;
         width: 100vw;
         visibility: hidden;
@@ -411,6 +424,14 @@ iframe{
     justify-items: center;
 }
 
+.bienvenida img{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+}
 /* cards del index en mobile -----------------------------------*/
 
 .cards{
