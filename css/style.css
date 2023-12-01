@@ -79,13 +79,23 @@ header nav ul li a{
     width: 30%;
 } 
 
-/* wpp logo anclado ------------------------------------------------------------- */
 
-#wpplogo{
-    position: fixed;
-    right: 1%;
-    bottom: 1%;
-    transform: scale(0.3);
+
+/* cards del index */
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: top;
+    justify-items: center;
+    gap: 0px;
+}
+
+.card{
+    width: 24vw;
+    height: 24vw;
+    border-radius: 0px;
+    gap: 0px;
 }
 
 
@@ -313,6 +323,16 @@ iframe{
     width: 950px;
     height: 300px;
 }
+
+/* wpp logo anclado ------------------------------------------------------------- */
+
+#wpplogo{
+    position: fixed;
+    right: 1%;
+    bottom: 1%;
+    transform: scale(0.3);
+}
+
 
 /* Media query para tablet  */
 
