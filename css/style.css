@@ -88,43 +88,30 @@ header nav ul li a{
     grid-template-columns: repeat(4, 1fr);
     align-items: top;
     justify-items: center;
-    gap: 0px;
+    grid-gap: 0!important;
+}
+.card{
+    border-radius: 0px;
+    width: 100%;
+    grid-gap: 0!important;
+    height: 100%;
 }
 
-.card{
-    width: 24vw;
-    height: 24vw;
-    border-radius: 0px;
-    gap: 0px;
+.card img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    grid-gap: 0!important;
 }
 
 
 /*  Footer  -------------------------------------------------------------- */
-.footercontacto {
-    display: flex; 
-    justify-content: space-evenly;
-    text-align: left;
-    text-shadow: 3px 3px 3px black;
-    color: #6782BB;
-    margin-top: 1rem;
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #8B307E;
 }
-
-.footercontacto ol {
-
-    list-style: none; 
-    padding: 0; 
-    margin: 0; 
-    font-size: 40px;
-    font-family: 'Raleway', sans-serif;
-}
-
-.footercontacto li {
-    margin: 0px;
-    font-size: 30px;
-    font-family: 'Raleway', sans-serif;
-}
-
 /* HTML botellas--------------------------------------------------------------------*/
 .clasesdebotellas {
     display: flex;
@@ -337,7 +324,22 @@ iframe{
 /* Media query para tablet  */
 
 @media screen and (max-width: 1024px){
+    .bienvenida h1{
+        font-family: 'Raleway', sans-serif;
+        font-size: 6rem;
+        text-align: center;
+        color: #6782BB;
+        text-shadow: 3px 2px 2px black; 
+    }
     
+    .bienvenida h2 {
+        margin-top: 25px;
+        font-family: 'Raleway', sans-serif;
+        font-size: 3rem;
+        text-align: center;
+        color: #6782BB;
+        text-shadow: 3px 3px 3px black;
+    } 
 }
 
 /* Media query para mobile */
@@ -388,7 +390,7 @@ iframe{
         visibility: visible;
     }
 
-/* titulos pagina principal de bienvenida y LOGO*/
+/* titulos pagina principal de bienvenida y LOGO en mobile*/
 .bienvenida {
     background-image: url(/assets/img/botellas.png);
     background-size: cover;
@@ -404,10 +406,32 @@ iframe{
 }
 
 .bienvenida h2 {
-    margin-top: 35px;
     align-items: center;
     justify-content: center;
     justify-items: center;
+}
+
+/* cards del index en mobile -----------------------------------*/
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: top;
+    justify-items: center;
+    grid-gap: 0!important;
+}
+.card{
+    border-radius: 0px;
+    width: 100%;
+    grid-gap: 0!important;
+    height: 100%;
+}
+
+.card img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    grid-gap: 0!important;
 }
 
 }
