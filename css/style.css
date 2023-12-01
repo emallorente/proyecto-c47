@@ -246,8 +246,51 @@ header nav ul li a{
 }
 
 /*HTML CONTACTO---------------------------------------------------------------------------------*/
+.hablemos {
+    font-family: 'Raleway', sans-serif;
+    color: #6782BB;
+    text-align: center;
 
-.nombreyMail {
+}
+.cajas div{
+    display: grid;
+    justify-content: center;
+    justify-items: auto;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas: "caja1 caja2" "caja3 caja3" "caja4 caja4";
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    color: #6782BB;
+}
+
+.caja1 {
+    grid-area: caja1;
+}
+.caja1 label{
+    text-align: center;
+}
+
+.caja2 {
+    text-align: center;
+    grid-area: caja2;
+}
+
+.caja3 {
+    grid-area: caja3;
+}
+.caja3 label{
+    text-align: right;
+    padding-right: 30px;
+}
+.caja4 {
+    grid-area: caja4;
+}
+.caja4 label{
+    text-align: right;
+    padding-right: 30px;
+}
+/* .nombreyMail {
     display: flex;
     justify-content: center;
     text-align: center;
@@ -316,7 +359,7 @@ iframe{
     margin: 0 auto;
     width: 950px;
     height: 300px;
-}
+} */
 
 /* wpp logo anclado ------------------------------------------------------------- */
 
@@ -354,7 +397,7 @@ iframe{
         left: 0;
         z-index: 1
 }
-
+}
 /* Media query para mobile */
 
 @media screen and (max-width: 768px){
