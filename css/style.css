@@ -4,74 +4,80 @@
     box-sizing: border-box;
 }
 
-.indexbody body{
-    background-color: white;
-    background-image: url(../assets/img/botellas.png);
-    background-size: cover;
-}
-
 /* fuente */
 @font-face {
     font-family: 'Raleway', sans-serif;
 }
 
 /* navegacion principal -------------------------------------------------------------------------------------*/
-nav{
-    background-color: white;
-    padding: 10px 10px 1000px 10px;
-    margin: 0px 0px 0px 0px;    
-    border-bottom: 3px solid black;
-    text-decoration: none;
-
+header{
+    background-color: #8B307E;
 }
 
-/*Navegador*/
-.navegador {
-    background-color:   white;
+header .logo {
+    display: none;
+}
+
+header #btn_menu{
+    display: none;
+}
+
+header label{
+    display: none;
+}
+
+header nav img{
+    width: 100px;
+}
+
+header nav ul{
+    display: flex;
+    list-style-type: none; 
+    justify-content: space-evenly;
+    padding: 15px 20px;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+header nav ul li a{
+    text-decoration: none;
     font-family: 'Raleway', sans-serif;
-    text-decoration: none;
-    font-size: 2.5rem;
-    padding: 10px;
+    color: #6782BB;
+    font-size: 20px;
 }
 
-.navegador a{
-    text-decoration: none;
-    color: #BADCCB;
-    text-shadow: 2px 2px 2px black;
-    margin: 15px 15px 15px 80px;
-}
+
 
 /* titulos pagina principal de bienvenida y LOGO*/
 .bienvenida {
-    background-color: white;
-    background-image: url(../assets/img/botellas.png);
+    background-image: url(/assets/img/botellas.png);
     background-size: cover;
-    margin-top: 20px;
-    padding-bottom: 700px;
+    height: 47vw;
+    align-items: center;
+}
+
+.bienvenida h1{
+    font-family: 'Raleway', sans-serif;
+    font-size: 8rem;
+    text-align: center;
+    color: #6782BB;
+    text-shadow: 3px 2px 2px black; 
+}
+
+.bienvenida h2 {
+    margin-top: 35px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 4rem;
+    text-align: center;
+    color: #6782BB;
+    text-shadow: 3px 3px 3px black;
 }
 
 #c47logo{
     display: block;
     margin: 0px auto;
     width: 30%;
-}
-
-
-h1 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 10rem;
-    text-align: center;
-    color: #BADCCB;
-    text-shadow: 3px 2px 2px black;    
-}
-
-h2{
-    font-family: 'Raleway', sans-serif;
-    font-size: 4rem;
-    text-align: center;
-    color: #BADCCB;
-    text-shadow: 3px 3px 3px black;
-}
+} 
 
 /* wpp logo anclado ------------------------------------------------------------- */
 
@@ -89,9 +95,9 @@ h2{
     justify-content: space-evenly;
     text-align: left;
     text-shadow: 3px 3px 3px black;
-    color: #BADCCB;
+    color: #6782BB;
     margin-top: 1rem;
-    background-color: #BADCCB;
+    background-color: #8B307E;
 }
 
 .footercontacto ol {
@@ -203,7 +209,7 @@ h2{
     border-radius: 30px;
 }
 
- /* HTML FLOREROS -----------------------------------------------------------------------*/
+/* HTML FLOREROS -----------------------------------------------------------------------*/
 .clasesdefloreros {
     background-color:#BADCCB;
     display: flex;
@@ -306,4 +312,82 @@ iframe{
     margin: 0 auto;
     width: 950px;
     height: 300px;
+}
+
+/* Media query para tablet  */
+
+@media screen and (max-width: 1024px){
+    
+}
+
+/* Media query para mobile */
+
+@media screen and (max-width: 768px){
+    /* header */
+
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header label{
+        display: block;
+        position: relative;
+        right: 25px;
+    }
+
+    header .logo{
+        display: block;
+        width: 100px;
+        margin-left: 25px;
+    }
+
+    header nav ul{
+        flex-direction: column;
+    }
+
+    header label img{
+        width: 50px;
+    }
+
+    .logo-hidden{
+        display: none;
+    }
+
+    .menu{
+        position: absolute;
+        top: 98px;
+        background-color: #8B307E;
+        width: 100vw;
+        visibility: hidden;
+        z-index: 1;
+    }
+
+    #btn_menu:checked ~ .menu{
+        visibility: visible;
+    }
+
+/* titulos pagina principal de bienvenida y LOGO*/
+.bienvenida {
+    background-image: url(/assets/img/botellas.png);
+    background-size: cover;
+    height: 47vw;
+    align-items: center;
+}
+
+.bienvenida h1{
+    font-size: 50px;
+    justify-self: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.bienvenida h2 {
+    margin-top: 35px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
 }
