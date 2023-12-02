@@ -246,22 +246,36 @@ header nav ul li a{
 }
 
 /*HTML CONTACTO---------------------------------------------------------------------------------*/
+
 .hablemos {
     font-family: 'Raleway', sans-serif;
     color: #6782BB;
     text-align: center;
+    background-color: #8B307E;
+    margin-bottom: 0px;
+}
+.hablemos h1{
+    margin-bottom: 0;
+}
 
+.cajas{
+    height: 40vw;
+    background-image: url(/assets/img/fondoContactanos.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .cajas div{
     display: grid;
     justify-content: center;
     justify-items: auto;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, auto);
+    grid-template-rows: repeat(4, auto);
     grid-template-areas: "caja1 caja2" "caja3 caja3" "caja4 caja4";
     font-size: 20px;
     font-family: 'Raleway', sans-serif;
     color: #6782BB;
+    padding-top: 5px;
 }
 
 .caja1 {
@@ -279,102 +293,23 @@ header nav ul li a{
 .caja3 {
     grid-area: caja3;
     padding-right: 33%;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 .caja3 label{
     text-align: right;
     padding-right: 30px;
 }
 .caja4 {
-    margin-top: 10px;
+    margin-top: 30px;
     grid-area: caja4;
     padding-right: 33%;
 }
 .caja4 label{
     text-align: right;
     padding-right: 30px;
+    margin-bottom: 30px;
+    
 }
-/* .nombreyMail {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
-.nombreyMail input{
-    display: inline;
-    margin: 0px 10px 10px 0px;
-    font-size: 30px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 30px;
-    width: 300px;
-    height: 50px;
-}
-.nombreyMail label{
-    display: inline;
-    font-size: 30px;
-    font-family: 'Raleway', sans-serif;
-    justify-content: center;
-    margin: 10px 00px 20px 0px;
-}
-
-.asunto{
-    display: flex;
-    justify-content: left;
-    text-align: center;
-    margin-left: 475px;
-}
-.asunto input{
-    text-align: left;
-    margin: 0px 0px 10px 10px;
-    align-content: center;
-    font-size: 30px;
-    width: 861px;
-    height: 50px;
-}
-.asunto label{
-    font-size: 30px;
-    font-family: 'Raleway', sans-serif;
-    margin: 0px 0px 0px 00px;
-}
-
-
-.mensaje{
-    display: inline-block;
-    justify-content: center;
-    text-align: center;
-    margin: 0px 0px 0px 382px;
-
-}
-.mensaje textarea{
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;
-    margin: 0px 0px 10px 95px;
-}
-
-.mensaje label{
-    display: block;
-    font-size: 30px;
-    font-family: 'Raleway', sans-serif;
-    justify-content: center;
-    margin: 0px 620px 10px 7px;
-}
-
-iframe{
-    display: block;
-    margin: 0 auto;
-    width: 950px;
-    height: 300px;
-} */
-
-/* wpp logo anclado ------------------------------------------------------------- */
-
-#wpplogo{
-    position: fixed;
-    right: 1%;
-    bottom: 1%;
-    transform: scale(0.3);
-}
-
-
 /* Media query para tablet  */
 
 @media screen and (max-width: 1024px){
@@ -401,6 +336,20 @@ iframe{
         left: 0;
         z-index: 1
 }
+.cajas{
+    height: 50vw;
+}
+    .cajas div{
+        font-size: 15px;
+    }
+
+    .caja4 label{
+        padding-right: 2px;
+    }
+
+    .caja3 label{
+        padding-right: 2px;
+    }
 }
 /* Media query para mobile */
 
@@ -500,6 +449,30 @@ iframe{
     width: 100%;
     height: 100%;
     grid-gap: 0!important;
+}
+.cajas{
+    height:50vw;
+}
+.caja1{
+    margin: 0;
+}
+.caja2{
+    margin: 0;
+}
+.caja3{
+    margin: 5px;
+}
+.caja3 label{
+    margin-right: 5px;
+}
+.caja4{
+    margin: 5px;
+}
+.caja4 label{
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
 }
 
 }
