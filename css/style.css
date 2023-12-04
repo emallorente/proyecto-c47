@@ -50,7 +50,7 @@ header nav ul li a{
 
 /* titulos pagina principal de bienvenida y LOGO*/
 .bienvenida {
-    background-image: url(/assets/img/botellas.png);
+    background-image: url(.assets/img/botellas.png);
     background-size: cover;
     height: 47vw;
     align-items: center;
@@ -256,7 +256,7 @@ header nav ul li a{
 
 .cajas{
     height: 40vw;
-    background-image: url(/assets/img/fondoContactanos.jpg);
+    background-image: url(./assets/img/fondoContactanos.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -397,7 +397,7 @@ header nav ul li a{
 
 /* titulos pagina principal de bienvenida y LOGO en mobile*/
 .bienvenida {
-    background-image: url(/assets/img/botellas.png);
+    background-image: url(./assets/img/botellas.png);
     background-size: cover;
     height: 47vw;
     align-items: center;
