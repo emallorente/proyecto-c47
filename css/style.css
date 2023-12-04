@@ -50,7 +50,7 @@ header nav ul li a{
 
 /* titulos pagina principal de bienvenida y LOGO*/
 .bienvenida {
-    background-image: url(..assets/img/botellas.png);
+    background-image: url(../assets/img/botellas.png);
     background-size: cover;
     height: 47vw;
     align-items: center;
