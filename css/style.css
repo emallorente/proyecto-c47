@@ -97,14 +97,14 @@ header nav ul li a{
     justify-items: center;
     grid-gap: 0!important;
 }
-.card{
+.cardo{
     border-radius: 0px;
     width: 100%;
     grid-gap: 0!important;
     height: 100%;
 }
 
-.card img{
+.cardo img{
     object-fit: cover;
     width: 100%;
     height: 100%;
@@ -120,35 +120,27 @@ header nav ul li a{
     background-color: #8B307E;
 }
 /* HTML botellas--------------------------------------------------------------------*/
-.clasesdebotellas {
-    display: flex;
-    justify-content: space-around;
-}
 
-.productobotellas {
-    text-align: center;
-    text-decoration: none;
-    color: #BADCCB;
-    margin: 15px;
+.botoncolor {
+    background-color: #8B307E;
+    color: #6782BB;
+}
+.card{
+    border: solid 2px #6782bb;
+    border-radius: 5px;
+}
+.tituloCard{
     font-family: 'Raleway', sans-serif;
-    font-size: 16px;
+    color: #6782BB;
+    text-align: center;
+    margin-top: 10px;
+}
+.textoCard{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin-top: 10px;
 }
 
-.productobotellas a {
-    text-decoration: none;
-    margin: 0px;
-    font-size: 20px;
-    color: #0d1a13;
-    font-weight: bold;
-
-}
-
-.productobotellas img {
-    height: 400px;
-    width: 200px;
-    margin: 100px;
-    border-radius: 30px;
-}
 
 /* HTML Mayoristas ingresos---------------------------------------------------*/
 
