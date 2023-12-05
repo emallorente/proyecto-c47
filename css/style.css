@@ -441,32 +441,34 @@ header nav ul li a{
 
 /* Cajas de contactos en mobile  */
 .cajas{
-    height:100vw;
+    height:110vw;
 }
 
 .cajas div{
     display: grid;
     justify-items: auto;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: 4;
+    grid-template-columns: 1fr;
     grid-template-areas: "caja1" "caja2" "caja3" "caja4";
-    font-size: 20px;
+    font-size: 16px;
     font-family: 'Raleway', sans-serif;
     color: #6782BB;
     padding-top: 5px;
 }
 
 .caja1{
+    padding: 10px;
     margin: 0;
     align-items: center;
     grid-area: caja1;
 }
 .caja2{
+    padding: 10px;
     margin: 0;
     grid-area: caja2;
 }
 .caja3{
-    margin: 5px;
+    padding: 10px;
+    margin: 0px;
     grid-area: caja3;
 }
 .caja3 input{
@@ -482,7 +484,8 @@ header nav ul li a{
 
 }
 .caja4{
-    margin: 5px;
+    padding: 10px;
+    margin: 0px;
     grid-area: caja4;
 }
 .caja4 label{
