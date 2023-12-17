@@ -1,0 +1,76 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* fuente */
+@font-face {
+  font-family: "Raleway", sans-serif;
+}
+header {
+  background-color: #8B307E;
+}
+header a .logo, header a label, header a #btn_menu {
+  display: none;
+}
+header .menu ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-evenly;
+  padding: 15px 20px;
+  align-items: center;
+  margin-bottom: 0px;
+}
+header .menu ul li a {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  color: #6782BB;
+  font-size: 20px;
+}
+header .menu ul li a img {
+  width: 100px;
+}
+
+.main-index .container .bienvenida {
+  background-image: url(../assets/img/botellas.png);
+  background-size: cover;
+  height: 47vw;
+  align-items: center;
+}
+.main-index .container .bienvenida h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 8rem;
+  text-align: center;
+  color: #6782BB;
+  text-shadow: 3px 2px 2px black;
+}
+.main-index .cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: top;
+  justify-items: center;
+  grid-gap: 0 !important;
+}
+.main-index .cards .cardo {
+  border-radius: 0px;
+  width: 100%;
+  grid-gap: 0 !important;
+  height: 100%;
+}
+.main-index .cards .cardo img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  grid-gap: 0 !important;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #8b307e;
+}
+
+/*# sourceMappingURL=main.css.map */
