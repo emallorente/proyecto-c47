@@ -1,10 +1,8 @@
 header {
     background-color: #8B307E;
-    a{
         .logo{
             display: none;
         }
-    }
     #btn_menu{
         display: none;
     } 
@@ -25,7 +23,7 @@ header {
                     font-family: 'Raleway', sans-serif;
                     color: #6782BB;
                     font-size: 20px;
-                    img {
+                    .logo-hidden {
                         width: 100px;
                     }
                 }

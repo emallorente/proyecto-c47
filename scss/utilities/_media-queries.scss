@@ -1,0 +1,109 @@
+// Media Queries 
+/* Media queries  */
+
+
+/* Queries index*/
+@media screen and (max-width: 1024px){
+    .main-index{
+        .container{
+            .bienvenida{
+                h1{
+                    font-family: 'Raleway', sans-serif;
+                    font-size: 6rem;
+                    text-align: center;
+                    color: #6782BB;
+                    text-shadow: 3px 2px 2px black; 
+                }
+                img{
+                    width: 100%;
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    z-index: 1;
+                }
+            }
+        }
+    }
+
+/*Queries contacto*/
+
+
+.cajas{
+    height: 80vw;
+    div{
+        font-size: 15px;
+    }
+}
+
+.caja3{
+    label{
+        padding-right: 2px;
+    }
+}
+
+.caja4{
+    label{
+        padding-right: 2px;
+    }
+}
+}
+/*Queries para mobile*/
+
+@media screen and (max-width: 768px){
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+            .logo{
+                display: block;
+                width: 100px;
+                margin-left: 25px;
+            }
+        #btn_menu:checked ~ .menu{
+            visibility: visible;
+        } 
+        label{
+            display: block;
+            position: relative;
+            right: 25px;
+            img{
+                width: 50px;
+            }
+        } 
+        .menu{
+            position: absolute;
+            top: 93px;
+            background-color: #8B307E;
+            width: 100vw;
+            visibility: hidden;
+            z-index: 1;
+            ul{
+                flex-direction: column;
+                li {
+                    a {
+                        .logo-hidden {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        } 
+    }
+    /* titulos pagina principal de bienvenida y LOGO en mobile*/
+    .main-index{    
+        .container{
+            .bienvenida{
+            background-image: url(../assets/img/botellas.png);
+            background-size: cover;
+            height: 47vw;
+            align-items: center;
+                h1{
+                font-size: 50px;
+                justify-self: center;
+                justify-content: center;
+                align-items: center;
+                }
+            }
+        }
+    }        
+}

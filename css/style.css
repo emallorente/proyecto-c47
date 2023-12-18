@@ -90,12 +90,12 @@ header nav ul li a{
 
 
 /*  Footer  -------------------------------------------------------------- */
-.footer{
+/* .footer{
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #8B307E;
-}
+} */
 /* HTML botellas--------------------------------------------------------------------*/
 
 /* .botoncolor {
@@ -121,7 +121,7 @@ header nav ul li a{
 
 /* HTML Mayoristas ingresos---------------------------------------------------*/
 
-.Cajasmayoristas {
+/* .Cajasmayoristas {
     font-family: 'Raleway', sans-serif;
     color: #6782BB;
     text-align: center;
@@ -152,9 +152,9 @@ header nav ul li a{
     text-align: center;
     font-family: 'Raleway', sans-serif;
     color: black;
-}
+} */
 
-/* HTML FRASCOS -----------------------------------------------------------------------*/
+/* HTML FRASCOS -----------------------------------------------------------------------
 .clasesdefrascos {
     background-color:#BADCCB;
     display: flex;
@@ -184,10 +184,10 @@ header nav ul li a{
     width: 200px;
     margin: 50px;
     border-radius: 30px;
-}
+} */
 
 /* HTML FLOREROS -----------------------------------------------------------------------*/
-.clasesdefloreros {
+/* .clasesdefloreros {
     background-color:#BADCCB;
     display: flex;
     justify-content: space-around;
@@ -216,11 +216,11 @@ header nav ul li a{
     width: 200px;
     margin: 50px;
     border-radius: 30px;
-}
+} */
 
 /*HTML CONTACTO---------------------------------------------------------------------------------*/
 
-.hablemos {
+/* .hablemos {
     font-family: 'Raleway', sans-serif;
     color: #6782BB;
     text-align: center;
@@ -229,9 +229,10 @@ header nav ul li a{
 }
 .hablemos h1{
     margin-bottom: 0;
-}
+} */
 
-.cajas{
+
+/* .cajas{
     height: 40vw;
     background-image: url(../assets/img/fondoContactanos.jpg);
     background-repeat: no-repeat;
@@ -249,15 +250,15 @@ header nav ul li a{
     font-family: 'Raleway', sans-serif;
     color: #6782BB;
     padding-top: 5px;
-}
+} */
 
-.caja1 {
+/* .caja1 {
     grid-area: caja1;
 }
 .caja1 label{
     text-align: center;
-}
-.caja2 {
+} */
+/* .caja2 {
     text-align: center;
     grid-area: caja2;
     padding-right: 10%;
@@ -267,12 +268,12 @@ header nav ul li a{
     grid-area: caja3;
     padding-right: 33%;
     margin-top: 30px;
-}
-.caja3 label{
+} */
+/* .caja3 label{
     text-align: right;
     padding-right: 30px;
-}
-.caja4 {
+} */
+/* .caja4 {
     margin-top: 30px;
     grid-area: caja4;
     padding-right: 33%;
@@ -281,11 +282,10 @@ header nav ul li a{
     text-align: right;
     padding-right: 30px;
     margin-bottom: 30px;
-    
-}
+} */
 /* Media query para tablet  */
 
-@media screen and (max-width: 1024px){
+/* @media screen and (max-width: 1024px){
     .bienvenida h1{
         font-family: 'Raleway', sans-serif;
         font-size: 6rem;
@@ -315,19 +315,19 @@ header nav ul li a{
     .caja3 label{
         padding-right: 2px;
     }
-}
+} */
 /* Media query para mobile */
 
-@media screen and (max-width: 768px){
+/* @media screen and (max-width: 768px){ */
     /* header */
 
-    header{
+    /* header{
         display: flex;
         justify-content: space-between;
         align-items: center;
-    }
+    } */
 
-    header label{
+    /* header label{
         display: block;
         position: relative;
         right: 25px;
@@ -365,25 +365,20 @@ header nav ul li a{
     }
 
 /* titulos pagina principal de bienvenida y LOGO en mobile*/
-.bienvenida {
+/* .bienvenida {
     background-image: url(../assets/img/botellas.png);
     background-size: cover;
-    height: 47vw;
+    height: 5vw;
     align-items: center;
 }
 
 .bienvenida h1{
-    font-size: 50px;
+    font-size: 10px;
     justify-self: center;
     justify-content: center;
     align-items: center;
 }
-
-.bienvenida h2 {
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
-}
+} */
 
 /* cards del index en mobile -----------------------------------*/
 
@@ -462,6 +457,4 @@ header nav ul li a{
     justify-items: center;
     align-items: center;
     text-align: center;
-}
-
 }
