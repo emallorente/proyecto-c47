@@ -6,12 +6,10 @@ header {
         }
     }
     #btn_menu{
-        @extend .logo;
-        // display: none;
+        display: none;
     } 
     label{
-        @extend .logo;
-        // display: none;
+        display: none;
     } 
     .menu{
         ul{

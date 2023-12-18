@@ -1,0 +1,31 @@
+// html botellas 
+
+/* html botellas */
+
+.main-botellas{
+    .container{
+        .row{
+            .col-md-4{
+                .card{
+                    border: solid 2px #6782bb;
+                    border-radius: 5px;
+                    .tituloCard{
+                        font-family: 'Raleway', sans-serif;
+                        color: #6782BB;
+                        text-align: center;
+                        margin-top: 10px;
+                    }
+                    .textoCard{
+                        font-family: 'Raleway', sans-serif;
+                        text-align: center;
+                        margin-top: 10px;
+                    }
+                    .botoncolor{
+                        background-color: #8B307E;
+                        color: #6782BB;
+                    }
+                }
+            }
+        }
+    }
+}

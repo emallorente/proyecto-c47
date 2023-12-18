@@ -90,15 +90,15 @@ header nav ul li a{
 
 
 /*  Footer  -------------------------------------------------------------- */
-/* .footer{
+.footer{
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #8B307E;
-} */
+}
 /* HTML botellas--------------------------------------------------------------------*/
 
-.botoncolor {
+/* .botoncolor {
     background-color: #8B307E;
     color: #6782BB;
 }
@@ -116,7 +116,7 @@ header nav ul li a{
     font-family: 'Raleway', sans-serif;
     text-align: center;
     margin-top: 10px;
-}
+} */
 
 
 /* HTML Mayoristas ingresos---------------------------------------------------*/

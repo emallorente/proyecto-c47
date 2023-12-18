@@ -6,6 +6,9 @@
 @import "./utilities/mixin";
 
 @import "./components/header";
-@import "./pages/main-index";
 @import "./components/footer";
+
+@import "./pages/main-index";
+@import "./pages/main-botellas";
+
 @import "./utilities/media-queries";
