@@ -49,10 +49,11 @@ header .menu ul li a .logo-hidden {
 .main-index .container .bienvenida {
   background-image: url(../assets/img/botellas.png);
   background-size: cover;
-  height: 47vw;
+  height: 50vw;
   align-items: center;
 }
 .main-index .container .bienvenida h1 {
+  margin-top: 50px;
   font-family: "Raleway", sans-serif;
   font-size: 8rem;
   text-align: center;
