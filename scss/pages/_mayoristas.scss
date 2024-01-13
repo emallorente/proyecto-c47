@@ -1,7 +1,11 @@
 // Html Mayoristas
 /* html mayoristas */
 
-
+.fondomayoristas{
+    background-image: url(../assets/img/fondomayoristas.jpg);
+    background-size: cover;
+    background-position: center;
+}
 .Cajasmayoristas{
     font-family: 'Raleway', sans-serif;
     color: #6782BB;
@@ -21,6 +25,7 @@
         font-family: 'Raleway', sans-serif;
         font-size: 30px;
         color: black;
+        background-color: white;
     }
     input[type="button"]{
         margin: 10px 20px 10px 30px;

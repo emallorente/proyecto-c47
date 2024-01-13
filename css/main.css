@@ -168,7 +168,21 @@ header .menu ul li a .logo-hidden {
 }
 
 /* html floreros */
+#cardvidrio {
+  margin-top: 113px;
+}
+
+#cardceramica {
+  margin-top: 50px;
+}
+
 /* html mayoristas */
+.fondomayoristas {
+  background-image: url(../assets/img/fondomayoristas.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
 .Cajasmayoristas {
   font-family: "Raleway", sans-serif;
   color: #6782BB;
@@ -189,6 +203,7 @@ header .menu ul li a .logo-hidden {
   font-family: "Raleway", sans-serif;
   font-size: 30px;
   color: black;
+  background-color: white;
 }
 .Cajasmayoristas input[type=button] {
   margin: 10px 20px 10px 30px;
