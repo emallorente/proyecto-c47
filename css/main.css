@@ -46,13 +46,13 @@ header .menu ul li a .logo-hidden {
   background-color: #8b307e;
 }
 
-.main-index .container .bienvenida {
+.main-index .contenedor .bienvenida {
   background-image: url(../assets/img/botellas.png);
   background-size: cover;
   height: 50vw;
   align-items: center;
 }
-.main-index .container .bienvenida h1 {
+.main-index .contenedor .bienvenida h1 {
   margin-top: 50px;
   font-family: "Raleway", sans-serif;
   font-size: 8rem;
@@ -60,20 +60,20 @@ header .menu ul li a .logo-hidden {
   color: #6782BB;
   text-shadow: 3px 2px 2px black;
 }
-.main-index .cards {
+.main-index .cards1 {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   align-items: top;
   justify-items: center;
   grid-gap: 0 !important;
 }
-.main-index .cards .cardo {
+.main-index .cards1 .cardo {
   border-radius: 0px;
   width: 100%;
   grid-gap: 0 !important;
   height: 100%;
 }
-.main-index .cards .cardo img {
+.main-index .cards1 .cardo img {
   object-fit: cover;
   width: 100%;
   height: 100%;
@@ -168,14 +168,6 @@ header .menu ul li a .logo-hidden {
 }
 
 /* html floreros */
-#cardvidrio {
-  margin-top: 113px;
-}
-
-#cardceramica {
-  margin-top: 50px;
-}
-
 /* html mayoristas */
 .fondomayoristas {
   background-image: url(../assets/img/fondomayoristas.jpg);
@@ -216,14 +208,16 @@ header .menu ul li a .logo-hidden {
 /* Media queries  */
 /* Queries index*/
 @media screen and (max-width: 1024px) {
-  .main-index .container .bienvenida h1 {
+  .main-index .contenedor .bienvenida h1 {
     font-family: "Raleway", sans-serif;
     font-size: 6rem;
     text-align: center;
     color: #6782BB;
     text-shadow: 3px 2px 2px black;
+    padding: 0;
+    margin: 0;
   }
-  .main-index .container .bienvenida img {
+  .main-index .contenedor .bienvenida img {
     width: 100%;
     position: fixed;
     top: 0;
@@ -282,38 +276,38 @@ header .menu ul li a .logo-hidden {
     display: none;
   }
   /* titulos pagina principal de bienvenida y LOGO en mobile*/
-  .main-index .container .bienvenida {
+  .main-index .contenedor .bienvenida {
     background-image: url(../assets/img/botellas.png);
     background-size: cover;
     height: 47vw;
     align-items: center;
   }
-  .main-index .container .bienvenida h1 {
+  .main-index .contenedor .bienvenida h1 {
+    margin-top: 10px;
     font-size: 12vw;
     justify-self: center;
     justify-content: center;
     align-items: center;
   }
+  .main-index .cards1 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .main-index .cards1 div {
+    width: 100%;
+  }
+  .main-index .cards1 div img {
+    width: 100%;
+  }
+  .main-index .cards1 div .cards1 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .main-index .cards1 div .cards1 div {
+    width: 100%;
+  }
+  .main-index .cards1 div .cards1 div img {
+    width: 100%;
+  }
   /* cards del index en mobile -----------------------------------*/
-  .cards {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: top;
-    justify-items: center;
-    grid-gap: 0 !important;
-  }
-  .card {
-    border-radius: 0px;
-    width: 100%;
-    grid-gap: 0 !important;
-    height: 100%;
-  }
-  .card img {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-    grid-gap: 0 !important;
-  }
   /* Cajas de contactos en mobile ------------------------------------- */
   .cajas {
     height: 110vw;

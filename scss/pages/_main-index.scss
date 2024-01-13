@@ -1,5 +1,5 @@
 .main-index{
-    .container{
+    .contenedor{
         .bienvenida{
             background-image: url(../assets/img/botellas.png);
             background-size: cover;
@@ -15,7 +15,7 @@
             }
         }
     }
-    .cards{
+    .cards1{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         align-items: top;
