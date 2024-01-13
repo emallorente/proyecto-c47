@@ -2,36 +2,40 @@
 /* html mayoristas */
 
 .fondomayoristas{
-    background-image: url(../assets/img/fondomayoristas.jpg);
+    background-image: url(../assets/img/fondomayoristas2.jpg);
     background-size: cover;
     background-position: center;
-}
-.Cajasmayoristas{
-    font-family: 'Raleway', sans-serif;
-    color: #6782BB;
-    text-align: center;
-    margin-top: 10px;
-    label{
-        margin-top: 20px;
-        display: block; 
-        font-weight: bolder;
+    .Cajasmayoristas{
         font-family: 'Raleway', sans-serif;
-        font-size: 25px;
-    }
-    input{
-        display: inline-block;
-        margin-bottom: 15px;
-        margin-top: 15px;
-        font-family: 'Raleway', sans-serif;
-        font-size: 30px;
         color: black;
-        background-color: white;
-    }
-    input[type="button"]{
-        margin: 10px 20px 10px 30px;
-        display: inline-block;
         text-align: center;
-        font-family: 'Raleway', sans-serif;
-        color: black;
+        text-shadow: 2px 0px 2px rgba(255, 255, 255, 0.7);
+        .leyendaMayorista{
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+        label{
+            margin-top: 20px;
+            display: block; 
+            font-weight: bolder;
+            font-family: 'Raleway', sans-serif;
+            font-size: 25px;
+        }
+        input{
+            display: inline-block;
+            margin-bottom: 15px;
+            margin-top: 15px;
+            font-family: 'Raleway', sans-serif;
+            font-size: 30px;
+            color: black;
+            background-color: white;
+        }
+        input[type="button"]{
+            margin: 10px 20px 10px 30px;
+            display: inline-block;
+            text-align: center;
+            font-family: 'Raleway', sans-serif;
+            color: black;
+        }
     }
 }
